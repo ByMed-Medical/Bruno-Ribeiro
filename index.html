@@ -30,7 +30,7 @@
             <button onclick="abrirAba(1)" id="btn-1"
                     class="flex-1 py-4 px-2 text-sm font-semibold text-gray-600">Serviços</button>
             <button onclick="abrirAba(2)" id="btn-2"
-                    class="flex-1 py-4 px-2 text-sm font-semibold text-gray-600">O que falam por aí!</button>
+                    class="flex-1 py-4 px-2 text-sm font-semibold text-gray-600">Serviços no Instagram!</button>
             <button onclick="abrirAba(3)" id="btn-3"
                     class="flex-1 py-4 px-2 text-sm font-semibold text-gray-600">Você sabia!</button>
         </div>
@@ -132,8 +132,68 @@
 			</div>
             
 			
-			<!-- Aba O que falam por aí! -->
-            
+			<!-- Aba: Serviços no Instagram! -->
+            <div id="aba-2" class="tab-content">
+				<h3 class="font-bold text-lg mb-6 text-indigo-800 text-center">
+					Veja nossos principais serviços no Instagram
+				</h3>
+				<p class="text-gray-600 text-center mb-8">
+					Clique em qualquer imagem para ver detalhes, comentários e mais no Instagram!
+				</p>
+
+				<!-- Grid de 4 posts: responsivo (1 coluna no mobile, 2 no tablet/desktop) -->
+				<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+					
+					<!-- Post 1: cole o embed do Instagram aqui -->
+					<div class="instagram-post">
+						<!-- Exemplo: substitua pelo seu embed real -->
+						<blockquote class="instagram-media" 
+									data-instgrm-captioned 
+									data-instgrm-permalink="https://www.instagram.com/p/DVbyI3hEc_x/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+									data-instgrm-version="14"
+									style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+							<!-- O Instagram preenche isso sozinho quando carrega o script abaixo -->
+						</blockquote>
+					</div>
+
+					<!-- Post 2 -->
+					<div class="instagram-post">
+						<blockquote class="instagram-media" 
+									data-instgrm-captioned 
+									data-instgrm-permalink="https://www.instagram.com/p/DSTF4A2EoMg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+									data-instgrm-version="14"
+									style="... (copie o style do primeiro)">
+						</blockquote>
+					</div>
+
+					<!-- Post 3 -->
+					<div class="instagram-post">
+						<blockquote class="instagram-media" 
+									data-instgrm-captioned 
+									data-instgrm-permalink="https://www.instagram.com/p/C4wCGXmpFpG/?utm_source=ig_embed&amp;utm_campaign=loading"
+									data-instgrm-version="14"
+									style="...">
+						</blockquote>
+					</div>
+
+					<!-- Post 4 -->
+					<div class="instagram-post">
+						<blockquote class="instagram-media" 
+									data-instgrm-captioned 
+									data-instgrm-permalink="https://www.instagram.com/p/Cj1EMMxr8xp/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+									data-instgrm-version="14"
+									style="...">
+						</blockquote>
+					</div>
+				</div>
+
+				<!-- Script obrigatório do Instagram (coloque só UMA VEZ, no final da aba ou no body) -->
+				<script async src="https://www.instagram.com/embed.js"></script>
+
+				<p class="text-xs text-gray-500 mt-6 text-center">
+					Conteúdo do Instagram • @brunoribeiro.fotodecomida
+				</p>
+			</div>
 
             <!-- Aba Você sabia! -->
 	<div id="aba-0" class="tab-content block">
@@ -182,6 +242,7 @@
 </body>
 
 </html>
+
 
 
 
